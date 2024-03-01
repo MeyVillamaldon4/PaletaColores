@@ -1,0 +1,98 @@
+@import url('general.css');
+
+h2 {
+    
+    font-size: 35px;
+}
+
+.container {
+    width: 450px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.general {
+    flex: 1;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    padding: 25px;
+    border-radius: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+
+
+}
+.pastel {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    background-color: none;
+    background-color:  rgba(235, 207, 246, 0);
+}
+
+
+#past {
+    background-color: rgba(235, 207, 246, 0.792);
+   
+}
+
+.fuerte {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    background-color: rgba(16, 7, 177, 0);
+}
+
+#fuert {
+    background-color: rgba(11, 4, 150, 0.923);
+}
+
+
+.button1,
+.button2 {
+    border: 2px solid rgba(0, 0, 0, 0.582);
+    padding: 5px 15px 5px 15px ;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-decoration: none;
+    color:brown;
+}
+
+
+.button1:hover {
+    background-color: rgb(227, 53, 227);
+    transition: background-color 0.5s;
+    color: aliceblue;
+}
+
+.button2:hover {
+    background-color: rgb(0, 6, 70);
+    transition: background-color 0.5s;
+    color: rgb(255, 255, 255);
+}
+
+
+
+ /* laptops and desktops */
+ @media (min-width:1000px) {
+   
+ }
+ 
+ 
+ /* smartphones, Android phones, landscape iPhone */
+ @media (max-width:620px) {
+
+    
+   
+
+
+ }
+ 

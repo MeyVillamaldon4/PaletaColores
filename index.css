@@ -1,0 +1,47 @@
+@import url('general.css');
+
+#paleta1,
+#paleta2,
+#paleta3,
+#paleta4,
+#paleta5 {
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 70px;
+    height: 150px;
+    margin-top: 25px;
+}
+
+.body{
+    margin: 0 auto;
+    width: 450px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 10px;
+    background-color: white;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.contai-cod {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.btn {
+    margin: 8px;
+    border-radius: 10px;
+    padding: 2px;
+    color: #BC62A4;
+    width: 75px;
+    font-weight: bold;
+}
